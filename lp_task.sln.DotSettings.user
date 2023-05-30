@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2041da21_002Deb6f_002D4934_002Db8f8_002D1a602a7c0485/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39aa4e4e_002D7391_002D4324_002Dba10_002D6abaf4daf599/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Not&gt;&#xD;
+      &lt;Project Location="C:\Users\maczw\Documents\lp_task" Presentation="&amp;lt;lp_task&amp;gt;" /&gt;&#xD;
+    &lt;/Not&gt;&#xD;
+    &lt;ProjectFile&gt;CB72A402-FC88-4F1D-80B4-00346E0D352D/d:lp_taskTests/d:Controllers/f:RentalsControllerTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=60153b93_002D054b_002D4f27_002Db923_002Dd54f7c6cf909/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovieControllerTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::988BE3E4-1272-4BBA-AF64-A669DE33F0F8::net7.0::lp_task.Tests.Controllers.MovieControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=67459ac2_002D7af7_002D45ab_002D81b1_002D114ea72732b7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovieControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\maczw\Documents\lp_task" Presentation="&amp;lt;lp_task&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e0fac662_002D3f2d_002D4106_002Db8bd_002De422ad258067/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MovieControllerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::988BE3E4-1272-4BBA-AF64-A669DE33F0F8::net7.0::lp_task.Tests.Controllers.MovieControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Favourited/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

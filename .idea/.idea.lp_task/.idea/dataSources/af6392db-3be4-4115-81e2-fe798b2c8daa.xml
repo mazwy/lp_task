@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Microsoft SQL Server LocalDB (JetBrains)">
+  <database-model serializer="dbm" dbms="MSSQL_LOCALDB" family-id="MSSQL_LOCALDB" format-version="4.48">
+    <root id="1">
+      <Dbms>MSSQL_LOCALDB</Dbms>
+      <ServerVersion>15.0.4153</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="master">
+      <Current>1</Current>
+      <ObjectId>1</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="3" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <schema id="6" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="dbo">
+      <Current>1</Current>
+      <IntrospectionTimestamp>2023-05-30.06:12:46.817</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="19" parent="16" name="AspNetRoleClaims">
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.620</ModifiedTimestamp>
+      <ObjectId>1959678029</ObjectId>
+    </table>
+    <table id="20" parent="16" name="AspNetRoles">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.620</ModifiedTimestamp>
+      <ObjectId>1799677459</ObjectId>
+    </table>
+    <table id="21" parent="16" name="AspNetUserClaims">
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.620</ModifiedTimestamp>
+      <ObjectId>2007678200</ObjectId>
+    </table>
+    <table id="22" parent="16" name="AspNetUserLogins">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.620</ModifiedTimestamp>
+      <ObjectId>2055678371</ObjectId>
+    </table>
+    <table id="23" parent="16" name="AspNetUserRoles">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.620</ModifiedTimestamp>
+      <ObjectId>2103678542</ObjectId>
+    </table>
+    <table id="24" parent="16" name="AspNetUserTokens">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>20195122</ObjectId>
+    </table>
+    <table id="25" parent="16" name="AspNetUsers">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.633</ModifiedTimestamp>
+      <ObjectId>1831677573</ObjectId>
+    </table>
+    <table id="26" parent="16" name="Countries">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>1863677687</ObjectId>
+    </table>
+    <table id="27" parent="16" name="Directors">
+      <CreatedTimestamp>2023-05-30.02:21:06.603</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>1895677801</ObjectId>
+    </table>
+    <table id="28" parent="16" name="FavoriteMovies">
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.630</ModifiedTimestamp>
+      <ObjectId>68195293</ObjectId>
+    </table>
+    <table id="29" parent="16" name="Genres">
+      <CreatedTimestamp>2023-05-30.02:21:06.603</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>1927677915</ObjectId>
+    </table>
+    <table id="30" parent="16" name="Movies">
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:49:19.587</ModifiedTimestamp>
+      <ObjectId>116195464</ObjectId>
+    </table>
+    <table id="31" parent="16" name="Rentals">
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.630</ModifiedTimestamp>
+      <ObjectId>212195806</ObjectId>
+    </table>
+    <table id="32" parent="16" name="__EFMigrationsHistory">
+      <CreatedTimestamp>2023-05-30.02:21:06.520</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.520</ModifiedTimestamp>
+      <ObjectId>1767677345</ObjectId>
+    </table>
+    <foreign-key id="33" parent="19" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+      <ColNames>RoleId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.607</ModifiedTimestamp>
+      <ObjectId>1991678143</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1799677459</RefTableId>
+      <RefTableName>AspNetRoles</RefTableName>
+    </foreign-key>
+    <index id="34" parent="19" name="PK_AspNetRoleClaims">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="35" parent="19" name="IX_AspNetRoleClaims_RoleId">
+      <ColNames>RoleId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="36" parent="19" name="PK_AspNetRoleClaims">
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.607</ModifiedTimestamp>
+      <ObjectId>1975678086</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetRoleClaims</UnderlyingIndexName>
+    </key>
+    <index id="37" parent="20" name="PK_AspNetRoles">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="38" parent="20" name="RoleNameIndex">
+      <ColNames>NormalizedName</ColNames>
+      <Condition>[NormalizedName] IS NOT NULL</Condition>
+      <Position>2</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="20" name="PK_AspNetRoles">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.600</ModifiedTimestamp>
+      <ObjectId>1815677516</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetRoles</UnderlyingIndexName>
+    </key>
+    <foreign-key id="40" parent="21" name="FK_AspNetUserClaims_AspNetUsers_UserId">
+      <ColNames>UserId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.607</ModifiedTimestamp>
+      <ObjectId>2039678314</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <index id="41" parent="21" name="PK_AspNetUserClaims">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="42" parent="21" name="IX_AspNetUserClaims_UserId">
+      <ColNames>UserId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="43" parent="21" name="PK_AspNetUserClaims">
+      <CreatedTimestamp>2023-05-30.02:21:06.607</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.607</ModifiedTimestamp>
+      <ObjectId>2023678257</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetUserClaims</UnderlyingIndexName>
+    </key>
+    <foreign-key id="44" parent="22" name="FK_AspNetUserLogins_AspNetUsers_UserId">
+      <ColNames>UserId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>2087678485</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <index id="45" parent="22" name="PK_AspNetUserLogins">
+      <Clustering>1</Clustering>
+      <ColNames>LoginProvider
+ProviderKey</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="46" parent="22" name="IX_AspNetUserLogins_UserId">
+      <ColNames>UserId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="47" parent="22" name="PK_AspNetUserLogins">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>2071678428</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetUserLogins</UnderlyingIndexName>
+    </key>
+    <foreign-key id="48" parent="23" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+      <ColNames>RoleId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>2135678656</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1799677459</RefTableId>
+      <RefTableName>AspNetRoles</RefTableName>
+    </foreign-key>
+    <foreign-key id="49" parent="23" name="FK_AspNetUserRoles_AspNetUsers_UserId">
+      <ColNames>UserId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>4195065</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <index id="50" parent="23" name="PK_AspNetUserRoles">
+      <Clustering>1</Clustering>
+      <ColNames>UserId
+RoleId</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="51" parent="23" name="IX_AspNetUserRoles_RoleId">
+      <ColNames>RoleId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="52" parent="23" name="PK_AspNetUserRoles">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>2119678599</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetUserRoles</UnderlyingIndexName>
+    </key>
+    <foreign-key id="53" parent="24" name="FK_AspNetUserTokens_AspNetUsers_UserId">
+      <ColNames>UserId</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>52195236</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <index id="54" parent="24" name="PK_AspNetUserTokens">
+      <Clustering>1</Clustering>
+      <ColNames>UserId
+LoginProvider
+Name</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="24" name="PK_AspNetUserTokens">
+      <CreatedTimestamp>2023-05-30.02:21:06.610</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.610</ModifiedTimestamp>
+      <ObjectId>36195179</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetUserTokens</UnderlyingIndexName>
+    </key>
+    <index id="56" parent="25" name="PK_AspNetUsers">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="57" parent="25" name="EmailIndex">
+      <ColNames>NormalizedEmail</ColNames>
+      <Position>2</Position>
+    </index>
+    <index id="58" parent="25" name="IX_AspNetUsers_Email">
+      <ColNames>Email</ColNames>
+      <Condition>[Email] IS NOT NULL</Condition>
+      <Position>3</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="59" parent="25" name="UserNameIndex">
+      <ColNames>NormalizedUserName</ColNames>
+      <Condition>[NormalizedUserName] IS NOT NULL</Condition>
+      <Position>4</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="25" name="PK_AspNetUsers">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.600</ModifiedTimestamp>
+      <ObjectId>1847677630</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AspNetUsers</UnderlyingIndexName>
+    </key>
+    <index id="61" parent="26" name="PK_Countries">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="26" name="PK_Countries">
+      <CreatedTimestamp>2023-05-30.02:21:06.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.600</ModifiedTimestamp>
+      <ObjectId>1879677744</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Countries</UnderlyingIndexName>
+    </key>
+    <index id="63" parent="27" name="PK_Directors">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="27" name="PK_Directors">
+      <CreatedTimestamp>2023-05-30.02:21:06.603</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.603</ModifiedTimestamp>
+      <ObjectId>1911677858</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Directors</UnderlyingIndexName>
+    </key>
+    <foreign-key id="65" parent="28" name="FK_FavoriteMovies_AspNetUsers_IdUser">
+      <ColNames>IdUser</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>100195407</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <foreign-key id="66" parent="28" name="FK_FavoriteMovies_Movies_IdMovie">
+      <ColNames>IdMovie</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.630</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.630</ModifiedTimestamp>
+      <ObjectId>276196034</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>116195464</RefTableId>
+      <RefTableName>Movies</RefTableName>
+    </foreign-key>
+    <index id="67" parent="28" name="PK_FavoriteMovies">
+      <Clustering>1</Clustering>
+      <ColNames>IdUser
+IdMovie</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="68" parent="28" name="IX_FavoriteMovies_IdMovie">
+      <ColNames>IdMovie</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="69" parent="28" name="PK_FavoriteMovies">
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>84195350</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_FavoriteMovies</UnderlyingIndexName>
+    </key>
+    <index id="70" parent="29" name="PK_Genres">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="71" parent="29" name="PK_Genres">
+      <CreatedTimestamp>2023-05-30.02:21:06.603</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.603</ModifiedTimestamp>
+      <ObjectId>1943677972</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Genres</UnderlyingIndexName>
+    </key>
+    <foreign-key id="72" parent="30" name="FK_Movies_FavoriteMovies_FavoriteMovieIdUser_FavoriteMovieIdMovie">
+      <ColNames>FavoriteMovieIdUser
+FavoriteMovieIdMovie</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>180195692</ObjectId>
+      <RefColNames>IdUser
+IdMovie</RefColNames>
+      <RefTableId>68195293</RefTableId>
+      <RefTableName>FavoriteMovies</RefTableName>
+    </foreign-key>
+    <foreign-key id="73" parent="30" name="FK_Movies_Countries_IdCountry">
+      <ColNames>IdCountry</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>148195578</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1863677687</RefTableId>
+      <RefTableName>Countries</RefTableName>
+    </foreign-key>
+    <foreign-key id="74" parent="30" name="FK_Movies_Directors_IdDirector">
+      <ColNames>IdDirector</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>164195635</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1895677801</RefTableId>
+      <RefTableName>Directors</RefTableName>
+    </foreign-key>
+    <foreign-key id="75" parent="30" name="FK_Movies_Genres_IdGenre">
+      <ColNames>IdGenre</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>196195749</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1927677915</RefTableId>
+      <RefTableName>Genres</RefTableName>
+    </foreign-key>
+    <index id="76" parent="30" name="PK_Movies">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="77" parent="30" name="IX_Movies_FavoriteMovieIdUser_FavoriteMovieIdMovie">
+      <ColNames>FavoriteMovieIdUser
+FavoriteMovieIdMovie</ColNames>
+      <Position>2</Position>
+    </index>
+    <index id="78" parent="30" name="IX_Movies_IdCountry">
+      <ColNames>IdCountry</ColNames>
+      <Position>3</Position>
+    </index>
+    <index id="79" parent="30" name="IX_Movies_IdDirector">
+      <ColNames>IdDirector</ColNames>
+      <Position>4</Position>
+    </index>
+    <index id="80" parent="30" name="IX_Movies_IdGenre">
+      <ColNames>IdGenre</ColNames>
+      <Position>5</Position>
+    </index>
+    <key id="81" parent="30" name="PK_Movies">
+      <CreatedTimestamp>2023-05-30.02:21:06.613</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.613</ModifiedTimestamp>
+      <ObjectId>132195521</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Movies</UnderlyingIndexName>
+    </key>
+    <foreign-key id="82" parent="31" name="FK_Rentals_AspNetUsers_IdUser">
+      <ColNames>IdUser</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>244195920</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1831677573</RefTableId>
+      <RefTableName>AspNetUsers</RefTableName>
+    </foreign-key>
+    <foreign-key id="83" parent="31" name="FK_Rentals_Movies_IdMovie">
+      <ColNames>IdMovie</ColNames>
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>260195977</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>116195464</RefTableId>
+      <RefTableName>Movies</RefTableName>
+    </foreign-key>
+    <index id="84" parent="31" name="PK_Rentals">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="85" parent="31" name="IX_Rentals_IdMovie">
+      <ColNames>IdMovie</ColNames>
+      <Position>2</Position>
+    </index>
+    <index id="86" parent="31" name="IX_Rentals_IdUser">
+      <ColNames>IdUser</ColNames>
+      <Position>3</Position>
+    </index>
+    <key id="87" parent="31" name="PK_Rentals">
+      <CreatedTimestamp>2023-05-30.02:21:06.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.617</ModifiedTimestamp>
+      <ObjectId>228195863</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Rentals</UnderlyingIndexName>
+    </key>
+    <index id="88" parent="32" name="PK___EFMigrationsHistory">
+      <Clustering>1</Clustering>
+      <ColNames>MigrationId</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="89" parent="32" name="PK___EFMigrationsHistory">
+      <CreatedTimestamp>2023-05-30.02:21:06.520</CreatedTimestamp>
+      <ModifiedTimestamp>2023-05-30.02:21:06.520</ModifiedTimestamp>
+      <ObjectId>1783677402</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

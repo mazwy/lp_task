@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lp_task", "lp_task.csproj", "{CB72A402-FC88-4F1D-80B4-00346E0D352D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lp_taskTests", "lp_taskTests\lp_taskTests.csproj", "{988BE3E4-1272-4BBA-AF64-A669DE33F0F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB72A402-FC88-4F1D-80B4-00346E0D352D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB72A402-FC88-4F1D-80B4-00346E0D352D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB72A402-FC88-4F1D-80B4-00346E0D352D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB72A402-FC88-4F1D-80B4-00346E0D352D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB72A402-FC88-4F1D-80B4-00346E0D352D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{988BE3E4-1272-4BBA-AF64-A669DE33F0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988BE3E4-1272-4BBA-AF64-A669DE33F0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988BE3E4-1272-4BBA-AF64-A669DE33F0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988BE3E4-1272-4BBA-AF64-A669DE33F0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
